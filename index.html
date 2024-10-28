@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website using Tailwind CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="bg-gray-900 text-white p-4 fixed top-0 w-full z-10">
+        <div class="container mx-auto flex justify-center space-x-10">
+            <a href="#home" class="hover:underline">Home</a>
+            <a href="#about" class="hover:underline">About</a>
+            <a href="#features" class="hover:underline">Features</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="bg-cover bg-center min-h-screen pt-20" style="background-image: url('./images/Homepagedigital.jpg');">
+        <div class="text-white mt-48 max-w-lg mx-auto text-center">
+            <h1 class="text-6xl font-semibold leading-normal">DigitalDZN</h1>  
+            <h3 class="mt-4 text-xl">
+                Unlike other website development companies in India, we take a holistic approach. We understand that a website is a crucial asset in your digital marketing strategy. That’s why we work closely with you to understand your unique business goals and create a website that attracts, engages, and converts visitors into loyal customers.
+            </h3>
+        </div>
+    </div> 
+
+    <!-- About Section -->
+    <div id="about" class="bg-cover bg-center min-h-screen pt-20" style="background-image: url('./images/About.jpg');">
+        <h1 class="text-6xl font-semibold leading-normal text-white text-center mt-10">About</h1>
+        <p class="text-white text-lg sm:text-xl leading-relaxed sm:leading-loose tracking-wide mt-6 text-center max-w-xl mx-auto">
+            We offer tailor-made solutions with our extensive technology expertise to help businesses unlock their true potential. With our team’s expert use of diverse technologies, we develop best-in-class software solutions that succeed.
+        </p>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="bg-cover bg-center min-h-screen pt-20" style="background-image: url('./images/Features.jpg');">
+        <h1 class="text-6xl font-semibold leading-normal text-white text-center mt-10">Features</h1>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 p-6 mt-6 max-w-6xl mx-auto">
+            <!-- Card 1 -->
+            <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white p-6">
+                <div class="font-bold text-xl mb-2 text-gray-800">Web Technology</div>
+                <p class="text-gray-700 text-base">PHP, Wordpress, Node JS, React JS</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white p-6">
+                <div class="font-bold text-xl mb-2 text-gray-800">Mobile Technology</div>
+                <p class="text-gray-700 text-base">Objective-C, Swift, Flutter, React, Kotlin</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white p-6">
+                <div class="font-bold text-xl mb-2 text-gray-800">Cloud</div>
+                <p class="text-gray-700 text-base">Hostinger, Google Cloud, Digital Ocean, Firebase</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white p-6">
+                <div class="font-bold text-xl mb-2 text-gray-800">Database</div>
+                <p class="text-gray-700 text-base">MySQL, PostgreSQL, etc.</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 mt-6 max-w-4xl mx-auto text-center">
+            <p class="text-justify">
+                <strong>At DigitalDZN</strong>, we believe that a website is more than just an online presence. It’s a representation of your brand, values, and unique identity. We work closely with our clients to understand their vision, objectives, and target audience, ensuring their website truly reflects their business.
+            </p>
+            <p class="text-justify mt-4">
+                <strong>Our web design and development process</strong> is tailored to meet each client's unique needs. Starting with a detailed project plan, our designers create a visually stunning website that aligns with your brand. Our developers then bring the design to life, optimizing for speed, security, and mobile responsiveness.
+            </p>
+        </div>
+    </div>
+
+    <!-- Developing Process Section -->
+    <div class="bg-cover bg-center min-h-screen pt-20" style="background-image: url('./images/other.jpg');">
+        <h1 class="text-6xl font-semibold leading-normal text-white text-center mt-10">Developing Process</h1>
+        <div class="bg-white p-6 mt-6 max-w-4xl mx-auto">
+            <p class="text-justify">
+                <strong>Discovery Phase:</strong><br>
+                We share the portfolio of top-rated WordPress engineers for you to screen and assess.
+            </p>
+            <p class="text-justify mt-4">
+                <strong>Planning & Strategy:</strong><br>
+                We develop a tailored website strategy and sitemap to ensure a cohesive user experience.
+            </p>
+            <p class="text-justify mt-4">
+                <strong>Design & Development:</strong><br>
+                Our designers and developers create a stunning, functional website based on your needs.
+            </p>
+            <p class="text-justify mt-4">
+                <strong>Content Creation:</strong><br>
+                We help craft compelling content that resonates with your audience and drives conversions.
+            </p>
+        </div>
+
+        <div>
+            <div class="bg-gray-100 py-10">
+                <h2 class="text-center text-4xl font-semibold text-gray-800 mb-10">Frequently Asked Questions</h2>
+                <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto px-4">
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">How do I get started with your website design services?</h3>
+                        <p class="text-gray-600">To get started with our website design services, simply contact us through our website or by phone. We’ll set up a consultation to discuss your project’s scope, requirements, and goals.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">What website design services do you offer?</h3>
+                        <p class="text-gray-600">We offer a wide range of website design services, including custom website design, responsive design, e-commerce website design, CMS integration, and maintenance.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Can you help with website content creation?</h3>
+                        <p class="text-gray-600">Providing secure and flexible cloud solutions to enhance your business.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Do you offer ongoing website maintenance?</h3>
+                        <p class="text-gray-600">Yes, we offer ongoing maintenance services to keep your website up-to-date and secure. We can work with you to create a maintenance plan that meets your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-sm">&copy; 2023 DigitalDZN. All Rights Reserved.</p>
+            <p class="mt-2">Follow us on 
+                <a href="#" class="text-blue-400 hover:underline">Facebook</a>, 
+                <a href="#" class="text-blue-400 hover:underline">Twitter</a>, 
+                <a href="#" class="text-blue-400 hover:underline">Instagram</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
